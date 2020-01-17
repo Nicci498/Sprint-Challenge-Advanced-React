@@ -9,7 +9,7 @@ import React from 'react';
                 <div key={player.id}>
                   <h2>{player.name}</h2>
                   <h4>{player.country}</h4>
-                  <p>{player.searches}</p>
+                  <p>Searched {player.searches} times</p>
                 </div>
                 
 //             <Card key={player.id}>

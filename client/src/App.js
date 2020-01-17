@@ -24,7 +24,7 @@ class App extends React.Component{
     return(
       <div>
         <Nav />
-         <PlayerCard players={this.state.players} />{/* i forgot this again and got stuck for a hot min */}
+        <PlayerCard players={this.state.players} />{/* i forgot this again and got stuck for a hot min */}
       </div>
       )
   }

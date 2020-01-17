@@ -6,8 +6,8 @@ export function useDarkMode() {
 
   useEffect(() => {
     darkMode
-      ? document.querySelector("*").classList.add("dark-mode")
-      : document.querySelector("*").classList.remove("dark-mode");
+      ? document.querySelector("body").classList.add("dark-mode")
+      : document.querySelector("body").classList.remove("dark-mode");
   }, [darkMode]);
 
   return [darkMode, setDarkMode];
