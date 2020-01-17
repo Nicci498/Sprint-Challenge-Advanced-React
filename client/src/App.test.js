@@ -8,4 +8,7 @@ it('matches snapshot', () =>{
   expect(asFragment()).toMatchSnapshot();
 });
 
-
+test(`it has "Women's Soccer Players" text`, ()=>{
+  const appl = render(<App />);
+  appl.getByAltText(/women's soccer players/i)
+})
