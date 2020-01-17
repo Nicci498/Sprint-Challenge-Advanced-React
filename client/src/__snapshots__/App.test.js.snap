@@ -2,6 +2,14 @@
 
 exports[`matches snapshot 1`] = `
 <DocumentFragment>
-  <div />
+  <div>
+    <h1>
+      Most Searched Women's Soccer Players
+    </h1>
+    <button>
+      Join the Dark Side light 
+    </button>
+    <div />
+  </div>
 </DocumentFragment>
 `;

@@ -2,7 +2,8 @@ import React from 'react';
 import axios from 'axios';
 
 import './App.css';
-import PlayerCard from './PlayerCard';
+import PlayerCard from './components/PlayerCard';
+import Nav from './components/nav';
 
 
 class App extends React.Component{
@@ -22,6 +23,7 @@ class App extends React.Component{
   render(){
     return(
       <div>
+        <Nav />
          <PlayerCard players={this.state.players} />{/* i forgot this again and got stuck for a hot min */}
       </div>
       )
